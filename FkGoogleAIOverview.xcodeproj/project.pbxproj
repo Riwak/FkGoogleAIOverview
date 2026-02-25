@@ -66,6 +66,7 @@
 			membershipExceptions = (
 				"/Localized: Resources/Main.html",
 				Assets.xcassets,
+				"Resources/4294-512.png",
 				Resources/Icon.png,
 				Resources/Script.js,
 				Resources/Style.css,
@@ -92,6 +93,7 @@
 			membershipExceptions = (
 				"/Localized: Resources/Main.html",
 				Assets.xcassets,
+				"Resources/4294-512.png",
 				Resources/Icon.png,
 				Resources/Script.js,
 				Resources/Style.css,
@@ -110,13 +112,9 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Resources/_locales,
-				Resources/background.js,
 				Resources/content.js,
 				Resources/images,
 				Resources/manifest.json,
-				Resources/popup.css,
-				Resources/popup.html,
-				Resources/popup.js,
 				SafariWebExtensionHandler.m,
 			);
 			target = 9B20A3B42F4F20AA00DFF6EB /* FkGoogleAIOverview Extension (iOS) */;
@@ -125,14 +123,24 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Resources/_locales,
-				Resources/background.js,
 				Resources/content.js,
 				Resources/images,
 				Resources/manifest.json,
-				Resources/popup.css,
-				Resources/popup.html,
-				Resources/popup.js,
 				SafariWebExtensionHandler.m,
+			);
+			target = 9B20A3BE2F4F20AA00DFF6EB /* FkGoogleAIOverview Extension (macOS) */;
+		};
+		9B20A40D2F4F2A8900DFF6EB /* Exceptions for "Shared (App)" folder in "FkGoogleAIOverview Extension (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Resources/4294-512.png",
+			);
+			target = 9B20A3B42F4F20AA00DFF6EB /* FkGoogleAIOverview Extension (iOS) */;
+		};
+		9B20A40E2F4F2A8900DFF6EB /* Exceptions for "Shared (App)" folder in "FkGoogleAIOverview Extension (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Resources/4294-512.png",
 			);
 			target = 9B20A3BE2F4F20AA00DFF6EB /* FkGoogleAIOverview Extension (macOS) */;
 		};
@@ -144,6 +152,8 @@
 			exceptions = (
 				9B20A3E32F4F20AA00DFF6EB /* Exceptions for "Shared (App)" folder in "FkGoogleAIOverview (iOS)" target */,
 				9B20A3ED2F4F20AA00DFF6EB /* Exceptions for "Shared (App)" folder in "FkGoogleAIOverview (macOS)" target */,
+				9B20A40D2F4F2A8900DFF6EB /* Exceptions for "Shared (App)" folder in "FkGoogleAIOverview Extension (iOS)" target */,
+				9B20A40E2F4F2A8900DFF6EB /* Exceptions for "Shared (App)" folder in "FkGoogleAIOverview Extension (macOS)" target */,
 			);
 			path = "Shared (App)";
 			sourceTree = "<group>";
@@ -532,6 +542,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ANFHCTHFLU;
@@ -541,8 +552,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -569,6 +579,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ANFHCTHFLU;
@@ -578,8 +589,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -673,6 +683,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ANFHCTHFLU;
@@ -698,6 +710,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ADRiwak.FkGoogleAIOverview;
 				PRODUCT_NAME = FkGoogleAIOverview;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -710,6 +723,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ANFHCTHFLU;
@@ -735,6 +750,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ADRiwak.FkGoogleAIOverview;
 				PRODUCT_NAME = FkGoogleAIOverview;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;

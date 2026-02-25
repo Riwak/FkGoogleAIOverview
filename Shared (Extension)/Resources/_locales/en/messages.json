@@ -1,10 +1,10 @@
 {
     "extension_name": {
         "message": "FkGoogleAIOverview",
-        "description": "The display name for the extension."
+        "description": "Automatically adds udm=14 to Google searches in order to remove all this IA overview bullshit!"
     },
     "extension_description": {
         "message": "This is FkGoogleAIOverview. You should tell us what your extension does here.",
-        "description": "Description of what the extension does."
+        "description": "Automatically adds udm=14 to Google searches in order to remove all this IA overview bullshit!"
     }
 }

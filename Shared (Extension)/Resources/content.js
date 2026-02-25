@@ -1,7 +1,10 @@
-browser.runtime.sendMessage({ greeting: "hello" }).then((response) => {
-    console.log("Received response: ", response);
-});
+ (function() {
 
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("Received request: ", request);
-});
+     const url = new URL(window.location.href);
+
+     if (url.pathname === "/search" && !url.searchParams.has("udm")) {
+         url.searchParams.append("udm", "14");
+         location.replace(url);
+     }
+
+ })();

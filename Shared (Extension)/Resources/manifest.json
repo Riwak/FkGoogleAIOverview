@@ -3,31 +3,27 @@
     "default_locale": "en",
 
     "name": "__MSG_extension_name__",
-    "description": "__MSG_extension_description__",
+    "description": "Automatically adds udm=14 to Google searches in order to remove all this IA overview bullshit!",
     "version": "1.0",
 
     "icons": {
-        "48": "images/icon-48.png",
-        "96": "images/icon-96.png",
-        "128": "images/icon-128.png",
-        "256": "images/icon-256.png",
-        "512": "images/icon-512.png"
-    },
-
-    "background": {
-        "scripts": [ "background.js" ],
-        "type": "module"
+        "48": "images/4294-48.png",
+        "96": "images/4294-96.png",
+        "128": "images/4294-128.png",
+        "256": "images/4294-256.png",
+        "512": "images/4294-512.png"
     },
 
     "content_scripts": [{
         "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "run_at": "document_start",
+        "matches": ["*://www.google.com/search*", "*://google.*/search*"]
     }],
 
-    "action": {
-        "default_popup": "popup.html",
-        "default_icon": "images/toolbar-icon.svg"
-    },
-
-    "permissions": [ ]
+    "permissions": [
+            "*://www.google.com/*",
+            "*://www.google.*/*",
+            "*://google.com/*",
+            "*://google.*/*"
+        ]
 }

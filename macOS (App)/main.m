@@ -2,7 +2,7 @@
 //  main.m
 //  macOS (App)
 //
-//  Created by Audouin d'Aboville on 25/02/2026.
+//  Created by Audouin Riwak on 25/02/2026.
 //
 
 #import <Cocoa/Cocoa.h>
