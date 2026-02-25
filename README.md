@@ -1,20 +1,20 @@
 # FkGoogleAIOverview Safari Extension
 
-**FkGoogleAIOverview** est une extension Safari (iOS & macOS) qui ajoute automatiquement le paramètre `udm=14` à toutes vos recherches Google, pour filtrer les résultats enrichis et IA, et revenir à une navigation Web classique.
+**FkGoogleAIOverview** is a Safari extension (iOS & macOS) that automatically adds the parameter udm=14 to all your Google searches, filtering out rich and AI results and returning you to regular web browsing.
 
-## Fonctionnalités
+## Features
 
-- Ajoute automatiquement `udm=14` aux URL Google Search
-- Compatible Safari sur macOS et iOS
-- Léger et rapide, sans impact sur la navigation
-- Minimaliste et open-source
+- Automatically adds udm=14 to Google Search URLs
+- Compatible with Safari on macOS and iOS
+- Lightweight and fast, with no impact on browsing
+- Minimalist and open-source
 
 ## Installation
 
-1. Cloner le dépôt :
+1. Clone the repository :
    ```bash
    git clone https://github.com/votre-utilisateur/FkGoogleAIOverview.git
 
-2. Ouvrir le projet dans Xcode (Objective-C)
-3. Compiler et installer l’extension sur macOS ou iOS
-4. Activer l’extension dans Safari → Réglages → Extensions
+2. Open the project in Xcode (Objective-C)
+3. Compile and install the extension on macOS or iOS
+4. Activate the extension in Safari → Settings → Extensions
