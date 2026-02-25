@@ -15,6 +15,6 @@
    ```bash
    git clone https://github.com/votre-utilisateur/FkGoogleAIOverview.git
 
-2. Open the project in Xcode (Objective-C)
+2. Open the project in Xcode
 3. Compile and install the extension on macOS or iOS
 4. Activate the extension in Safari → Settings → Extensions
